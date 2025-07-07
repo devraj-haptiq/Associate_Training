@@ -79,12 +79,12 @@ header {
 
 .recent-posts {
   background-color: #edf7fa;
-  height: 387px;
+  /* height: 387px; */
 }
 .recent-posts .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 20px 80px;
+  padding: 20px 0;
 }
 .recent-posts .container .recent-posts-header {
   margin-bottom: 20px;
@@ -115,7 +115,7 @@ header {
   padding: 22px;
   border-radius: 4px;
   /* width: 418px; */
-  height: 295px;
+  /* height: 295px;  */
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -160,7 +160,7 @@ header {
 .works .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 20px 80px;
+  padding: 20px 0;
 }
 
 .works .container h3 {
@@ -247,7 +247,7 @@ header {
   margin-bottom: 60px;
 }
 .container {
-  padding: 20px 80px;
+  padding: 20px 0;
   width: 1200px;
   margin: 0 auto;
 }
