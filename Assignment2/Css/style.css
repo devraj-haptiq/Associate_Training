@@ -144,6 +144,7 @@ header {
   font-weight: 400;
   color: #21243d;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .recent-posts .container .card .post-details .small-line {
