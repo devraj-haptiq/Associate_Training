@@ -41,7 +41,6 @@ header .container {
 header ul {
   display: flex;
   list-style: none;
-  /* gap: 8px; */
 }
 header ul a {
   text-decoration: none;
@@ -49,7 +48,6 @@ header ul a {
   font-size: 16px;
   font-weight: 600;
   padding: 8px 24px;
-  /* font-style: semi-bold; */
 }
 header ul a:hover {
   border: 1px solid #fff;
@@ -69,7 +67,6 @@ header ul a:active {
 }
 
 .banner .container {
-  /* margin-top: 64px; */
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -87,17 +84,16 @@ header ul a:active {
   margin-bottom: 32px;
 }
 
-.banner-paragraph {
+.bannerParagraph {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   margin: 0 auto;
   margin-bottom: 64px;
   line-height: 140%;
-  /* max-width: fit-content; */
 }
 
-.watchintro {
+.watchIntro {
   background-color: #6c00ff;
   padding: 16px 32px;
   text-decoration: none;
@@ -161,7 +157,7 @@ header ul a:active {
   justify-content: space-between;
 }
 
-.service-icon {
+.serviceIcon {
   width: 96px;
   height: 96px;
   border-radius: 50%;
@@ -172,18 +168,18 @@ header ul a:active {
   margin-bottom: 32px;
 }
 
-.service-icon i {
+.serviceIcon i {
   color: #fff;
   font-size: 32px;
 }
-.service-item {
+.serviceItem {
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.service-item h5 {
+.serviceItem h5 {
   font-size: 18px;
   font-weight: 600;
   color: #222831;
@@ -191,14 +187,14 @@ header ul a:active {
   margin-bottom: 16px;
 }
 
-.service-item p {
+.serviceItem p {
   font-size: 14px;
   color: #393e46;
   font-weight: 400;
   line-height: 140%;
 }
 
-.feature-item {
+.featureItem {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -206,15 +202,13 @@ header ul a:active {
   gap: 127px;
 }
 
-.feature-details {
+.featureDetails {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: flex-start;
-  /* padding: 40px 128px 40px 0; */
-  /* padding-right: 100px; */
 }
-.feature-details h6 {
+.featureDetails h6 {
   font-size: 14px;
   font-weight: 600;
   color: #6c00ff;
@@ -222,14 +216,14 @@ header ul a:active {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.feature-details h3 {
+.featureDetails h3 {
   font-size: 44px;
   font-weight: 500;
   line-height: 120%;
   color: #222831;
   margin-bottom: 32px;
 }
-.feature-details p {
+.featureDetails p {
   font-size: 14px;
   color: #393e46;
   font-weight: 400;
@@ -237,48 +231,46 @@ header ul a:active {
   margin-bottom: 32px;
 }
 
-.feature-details ul {
+.featureDetails ul {
   display: flex;
   flex-direction: column;
   list-style: none;
   gap: 10px;
 }
-.feature-details ul span {
+.featureDetails ul span {
   padding-left: 5px;
   font-size: 16px;
   color: #393e46;
   font-weight: 400;
   line-height: 140%;
 }
-.feature-image {
+.featureImage {
   width: 475px;
   height: 400px;
   overflow: hidden;
-  /* border-right: #6c00ff 32px solid;
-  border-bottom: 32px solid #6c00ff; */
 }
-.feature-item .feature-image {
+.featureItem .featureImage {
   box-shadow: 32px 32px 0 -5px #6c00ff;
 }
 
-.feature-image img {
+.featureImage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.feature-item:nth-child(even) {
+.featureItem:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-.feature-item:nth-child(even) .feature-image {
+.featureItem:nth-child(even) .featureImage {
   box-shadow: -32px -32px 0 -5px #6c00ff;
 }
-.footer-logo {
+.footerLogo {
   margin-bottom: 16px;
 }
 
-.footer-content {
+.footerContent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -304,7 +296,6 @@ footer a {
 footer p {
   text-align: center;
   font-size: 16px;
-  /* color: #393e46; */
   color: #393e46;
   font-weight: 400;
   padding: 8px 24px;
