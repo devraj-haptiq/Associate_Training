@@ -3,8 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Matter";
+  src: url("/fonts/Matter-Regular.woff2") format("woff2");
+  font-weight: 400; /* Or 'normal' */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---  Matter Bold --- */
+@font-face {
+  font-family: "Matter";
+  src: url("/fonts/Matter-Bold.woff2") format("woff2");
+  font-weight: 700; /* Or 'bold' */
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: "Heebo", sans-serif;
+  font-family: "Matter", sans-serif;
 }
 .container {
   width: 1200px;
@@ -26,7 +43,7 @@ header ul {
   list-style: none;
   /* gap: 8px; */
 }
-header a {
+header ul a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
@@ -34,12 +51,12 @@ header a {
   padding: 8px 24px;
   /* font-style: semi-bold; */
 }
-header a:hover {
+header ul a:hover {
   border: 1px solid #fff;
   border-radius: 100px;
   color: #fff;
 }
-header a:active {
+header ul a:active {
   border: 1px solid #fff;
   border-radius: 100px;
 }
@@ -72,6 +89,7 @@ header a:active {
 
 .banner-paragraph {
   font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   margin: 0 auto;
   margin-bottom: 64px;
@@ -102,6 +120,7 @@ header a:active {
   background-color: rgba(255, 255, 255, 0.15);
   text-decoration: none;
   color: white;
+  margin: 20px 0 40px 0;
 }
 
 .scrollDown i {
@@ -193,7 +212,7 @@ header a:active {
   justify-content: space-between;
   align-content: flex-start;
   /* padding: 40px 128px 40px 0; */
-  padding-right: 100px;
+  /* padding-right: 100px; */
 }
 .feature-details h6 {
   font-size: 14px;
@@ -238,13 +257,8 @@ header a:active {
   /* border-right: #6c00ff 32px solid;
   border-bottom: 32px solid #6c00ff; */
 }
-
-.feature-image-border {
-  width: 506px;
-  height: 432px;
-  border-right: #6c00ff 32px solid;
-  border-bottom: 32px solid #6c00ff;
-  /* overflow: hidden; */
+.feature-item .feature-image {
+  box-shadow: 32px 32px 0 -5px #6c00ff;
 }
 
 .feature-image img {
@@ -252,25 +266,14 @@ header a:active {
   height: 100%;
   object-fit: cover;
 }
-.feature-item-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.feature-item:nth-child(even) {
   flex-direction: row-reverse;
-  margin-bottom: 128px;
-  gap: 85px;
-  width: 100%;
 }
 
-.feature-item-flex .feature-details {
-  padding-right: 0;
-  padding-left: 100px;
+.feature-item:nth-child(even) .feature-image {
+  box-shadow: -32px -32px 0 -5px #6c00ff;
 }
-
-footer .container {
-  margin: auto;
-}
-
 .footer-logo {
   margin-bottom: 16px;
 }
@@ -298,9 +301,10 @@ footer a {
   padding: 8px 24px;
 }
 
-.footer-copy {
+footer p {
   text-align: center;
   font-size: 16px;
+  /* color: #393e46; */
   color: #393e46;
   font-weight: 400;
   padding: 8px 24px;
