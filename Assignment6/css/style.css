@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Crimson Text", sans-serif;
+}
+.container {
+  max-width: 1212px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 16px;
+  line-height: 125%;
+  font-style: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Work-sans", sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 125%;
+  font-style: bold;
+  font-weight: 700;
+}
+p {
+  font-size: 16px;
+  line-height: 125%;
+  font-weight: 400;
+  word-spacing: 5px;
+  font-family: "Work-sans", sans-serif;
+}
+
+a {
+  width: fit-content;
+  text-decoration: none;
+  font-family: "Work-sans", sans-serif;
+  font-size: 20px;
+  line-height: 125%;
+  font-weight: 400;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+header {
+  background-color: #74c69d;
+}
+
+header .container {
+  padding: 35px 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  list-style: none;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: "Work-sans", sans-serif;
+}
+
+.banner {
+  background-color: #74c69d;
+  margin-bottom: 60px;
+}
+
+.banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  color: #fff;
+  padding-bottom: 90px;
+}
+
+.bannerIntro {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bannerIntro h3 {
+  margin-bottom: 15px;
+}
+
+.bannerIntro h1 {
+  font-size: 40px;
+  line-height: 125%;
+  font-style: bold;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.bannerIntro p {
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.bannerIntro a {
+  padding: 13px 48px;
+
+  color: #000;
+
+  background-color: #fff;
+}
+
+.bannerImage {
+  max-width: 645px;
+  overflow: hidden;
+}
+
+.bannerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.partners {
+  margin-bottom: 73px;
+}
+
+.partners .container {
+  text-align: center;
+}
+
+.partnerImages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 68px;
+}
+
+.partners h3 {
+  color: #74c69d;
+  margin-bottom: 16px;
+}
+
+.partners h2 {
+  margin-bottom: 16px;
+}
+
+.partners h4 {
+  margin-bottom: 55px;
+}
+
+.partnerImages {
+  margin-bottom: 55px;
+}
+
+.partners a {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 29px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 73px;
+}
+
+.featureInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin: auto 0; */
+  /* padding: 88px 0; */
+}
+
+.featureInfo h2 {
+  margin-bottom: 16px;
+}
+
+.featureInfo p {
+  margin-bottom: 16px;
+  color: rgba(33, 37, 41, 0.5);
+}
+
+.featureInfo a {
+  margin-bottom: 16px;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 29px;
+}
+/* 
+    .featureImage {
+    max-width: 600px;
+    overflow: hidden;
+    }
+
+    .featureImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    } */
+.featureItem:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.team .container {
+  text-align: center;
+}
+
+.team h3 {
+  color: #74c69d;
+  margin-bottom: 16px;
+}
+
+.team h2 {
+  margin-bottom: 16px;
+}
+
+.team h4 {
+  margin-bottom: 45px;
+}
+
+.teamProfile {
+  display: flex;
+  justify-content: space-between;
+  gap: 47px;
+}
+
+.profile {
+  padding: 19px 38px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+
+.profileImage {
+  margin-bottom: 19px;
+}
+
+.profile h5 {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 125%;
+  margin-bottom: 18px;
+}
+
+.profile h6 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 125%;
+  color: rgba(33, 37, 41, 0.75);
+}
+
+.team {
+  margin-bottom: 55px;
+}
+
+.team a {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 29px;
+}
+
+.teamProfile {
+  margin-bottom: 45px;
+}
+footer {
+  background-color: #74c69d;
+}
+
+footer .container {
+  padding: 54px 16px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerLinks a i {
+  color: #fff;
+}
+
+.footerLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "work-sans", sans-serif;
+  line-height: 125%;
+  color: #fff;
+}
+.plans .container {
+  text-align: center;
+  margin-top: 35px;
+
+  margin-bottom: 135px;
+}
+
+.plans h3 {
+  color: #74c69d;
+  margin-bottom: 16px;
+}
+
+.plans h2 {
+  margin-bottom: 18px;
+}
+
+.plans h4 {
+  margin-bottom: 78px;
+}
+
+.planList {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.planCard {
+  padding: 46px 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+
+.planCard a {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 29px;
+}
+
+.planCard p {
+  margin-bottom: 52px;
+}
+
+.planFeatures {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: left;
+  gap: 10px;
+  margin-bottom: 45px;
+}
+
+.planCard h5 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 125%;
+  font-family: "work-sans", sans-serif;
+}
+
+.planCard h4 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: bold;
+  font-family: "work-sans", sans-serif;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.planCard p {
+  color: rgba(33, 37, 41, 0.5);
+}
+
+.planCard span {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "work-sans", sans-serif;
+  color: rgba(33, 37, 41, 0.5);
+}
+
+.planFeatures li {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  font-family: "work-sans", sans-serif;
+  font-weight: 400;
+  line-height: 125%;
+  color: rgba(33, 37, 41, 1);
+}
+
+.planFeatures i {
+  color: #74c69d;
+}
+
+@media (max-width: 1180px) {
+  .partnerImages {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .teamProfile {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .planList {
+    gap: 75px;
+  }
+}
+
+@media (max-width: 991px) {
+  .partnerImages {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .featureItem {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .featureItem:nth-child(even) {
+    flex-direction: column;
+  }
+
+  /* .featureInfo h2 {
+    font-size: 28px;
+  }
+
+  .featureInfo p {
+    font-size: 13px;
+  }
+
+  .featureInfo a {
+    padding: 10px 20px;
+  }
+  .featureImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  } */
+
+  .teamProfile {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .planList {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .banner .container {
+    flex-direction: column-reverse;
+    gap: 30px;
+    padding-bottom: 41px;
+  }
+  .bannerImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .bannerIntro h1 {
+    font-size: 28px;
+  }
+
+  .partnerImages {
+    flex-direction: column;
+  }
+
+  .featureItem {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .featureItem:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .teamProfile {
+    flex-direction: column;
+    padding: 0 34px;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .featureImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  footer .container {
+    padding: 30px 16px;
+    flex-direction: column;
+  }
+
+  .plans .container {
+    margin-bottom: 68px;
+  }
+
+  .planList {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .plans h4 {
+    margin-bottom: 45px;
+  }
+
+  .planCard h4 {
+    margin-bottom: 15px;
+  }
+}
