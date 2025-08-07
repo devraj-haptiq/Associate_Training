@@ -30,7 +30,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-5">
           <Link to="/" className="text-2xl">
-            <img className="h-10" src="/src/assets/logo.svg" alt="Logo" />
+            <img className="h-10" src="/logo.svg" alt="Logo" />
           </Link>
           <nav className="hidden md:flex justify-between gap-4 items-center text-lg">
             <Link to="/" className="hover:text-gray-600">

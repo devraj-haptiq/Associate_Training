@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <img src="src/assets/logo.svg" className="bg-white p-1 mb-3"></img>
+            <img src="/logo.svg" className="bg-white p-1 mb-3"></img>
             <p className="text-gray-400">
               Your one-stop destination for the world's finest timepieces.
               Discover luxury, precision, and style.
