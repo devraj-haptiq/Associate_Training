@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const brands = [
   {
@@ -51,18 +52,13 @@ export default function FeatureSection() {
               key={brand.name}
               className="flex justify-center items-center p-4 bg-white rounded-lg shadow-sm"
             >
-              <a
-                href={`/brands/${brand.name
-                  .toLowerCase()
-                  .replace(/\s+/g, "-")}`}
-                className="block"
-              >
+              <Link className="block">
                 <img
                   src={brand.logoSrc}
                   alt={`${brand.name} logo`}
                   className="h-12 w-auto object-contain "
                 />
-              </a>
+              </Link>
             </div>
           ))}
         </div>
