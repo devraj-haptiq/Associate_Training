@@ -9,8 +9,8 @@ export default function BannerSection() {
   return (
     <div>
       <div className="flex h-[100vh]">
-        <a
-          href="/products"
+        <Link
+          to="/products"
           className="banner-section w-full md:w-1/2  flex items-center justify-center text-white no-underline"
           style={{
             backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${mansImage})`,
@@ -32,10 +32,10 @@ export default function BannerSection() {
               </button>
             </Link>
           </div>
-        </a>
+        </Link>
 
-        <a
-          href="/products"
+        <Link
+          to="/products"
           className="banner-section w-full md:w-1/2  flex items-center justify-center text-white no-underline"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${womensImage})`,
@@ -57,7 +57,7 @@ export default function BannerSection() {
               </button>
             </Link>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );
