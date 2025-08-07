@@ -1,5 +1,4 @@
 import React from "react";
-import ProductPage from "../pages/ProductPage";
 import { Link } from "react-router-dom";
 const mansImage =
   "https://static-01.daraz.com.bd/p/3f6f548e25a32b0f86c59b3c7136c686.jpg";
