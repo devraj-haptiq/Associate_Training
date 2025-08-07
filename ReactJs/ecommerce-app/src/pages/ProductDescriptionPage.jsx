@@ -5,13 +5,13 @@ import { useWishlist } from "../context/WishlistContext";
 import { useDispatch } from "react-redux";
 import { addItemToCart } from "../redux/cartSlice";
 import ProductTile from "../components/ProductTile";
+import toast from "react-hot-toast";
 
 export default function ProductDescriptionPage() {
   const { productId } = useParams();
   const [watch, setWatch] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-
   const { allWatches, addToWishlist, removeFromWishlist, isItemInWishlist } =
     useWishlist();
   const dispatch = useDispatch();
@@ -49,18 +49,20 @@ export default function ProductDescriptionPage() {
   const handleWishlistClick = () => {
     if (isInWishlist) {
       removeFromWishlist(watch.id);
-      alert("Item removed from wishlist.");
+      toast("Item removed from wishlist.");
     } else {
       addToWishlist(watch.id);
-      alert("Item added to wishlist!");
+      toast.success("Item added to wishlist!");
     }
   };
 
   const handleAddToCart = () => {
     if (!watch.in_stock) {
+      toast.error("This item is currently out of stock.");
       return;
     }
     dispatch(addItemToCart(watch));
+    toast.success("Item added to cart!");
   };
 
   const { name, brand, price, image_url, in_stock, rating, description } =

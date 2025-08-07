@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useWishlist } from "../context/WishlistContext";
 import { useDispatch } from "react-redux";
 import { addItemToCart } from "../redux/cartSlice";
+import toast from "react-hot-toast";
 
 export default function ProductTile({ watch }) {
   const { id, name, brand, price, image_url, in_stock, rating } = watch;
@@ -16,10 +17,10 @@ export default function ProductTile({ watch }) {
     e.preventDefault();
     if (isInWishlist) {
       removeFromWishlist(id);
-      alert("Item removed from wishlist.");
+      toast("Item removed from wishlist.");
     } else {
       addToWishlist(id);
-      alert("Item added to wishlist!");
+      toast.success("Item added to wishlist!");
     }
   };
 
@@ -27,9 +28,11 @@ export default function ProductTile({ watch }) {
     e.stopPropagation();
     e.preventDefault();
     if (!in_stock) {
+      toast.error("Item is currently out of stock.");
       return;
     }
     dispatch(addItemToCart(watch));
+    toast.success("Item added to cart!");
   };
 
   return (
@@ -50,14 +53,12 @@ export default function ProductTile({ watch }) {
             }`}
           ></i>
         </button>
-
         <img
           className="h-60 w-full rounded-t-lg object-contain p-2"
           src={image_url}
           alt={`Image of ${name}`}
         />
       </div>
-
       <div className="p-4 text-center flex flex-col flex-grow">
         <div className="mb-4">
           <p className="mb-1 text-sm text-gray-500">{brand}</p>
@@ -77,7 +78,6 @@ export default function ProductTile({ watch }) {
             <span className="ml-1">⭐</span>
           </div>
         </div>
-
         <button
           onClick={handleAddToCart}
           disabled={!in_stock}
