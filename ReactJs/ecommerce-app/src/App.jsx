@@ -8,9 +8,7 @@ import Router from "./routes/router";
 function App() {
   return (
     <>
-      <RouterProvider router={Router}>
-        <PublicLayout />
-      </RouterProvider>
+      <RouterProvider router={Router} />
     </>
   );
 }
