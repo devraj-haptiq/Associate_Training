@@ -83,7 +83,7 @@ export default function SignupPage() {
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="More than 6 characters"
+              placeholder="At least 8 characters, incl. uppercase, lowercase, number & special character"
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700"
               required
             />
