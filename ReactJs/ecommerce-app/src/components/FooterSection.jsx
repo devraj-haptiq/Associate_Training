@@ -27,17 +27,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-white">
+                <Link to="/" className="text-gray-400 hover:text-white">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-400 hover:text-white">
+                <Link to="/" className="text-gray-400 hover:text-white">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className="text-gray-400 hover:text-white">
+                <Link to="/" className="text-gray-400 hover:text-white">
                   FAQ
                 </Link>
               </li>
