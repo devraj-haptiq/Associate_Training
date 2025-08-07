@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
+import bcrypt from "bcryptjs";
 
-// --- Helper functions to interact with localStorage ---
 const getLoggedInUser = () => {
   try {
     const user = localStorage.getItem("loggedInUser");
@@ -54,8 +54,10 @@ const authSlice = createSlice({
         return;
       }
 
-      // If validation passes, create the new user
-      const newUser = { name, email, password };
+      const salt = bcrypt.genSaltSync(10);
+      const hashedPassword = bcrypt.hashSync(password, salt);
+
+      const newUser = { name, email, password: hashedPassword };
       state.allUsers.push(newUser);
       state.user = { name, email };
       state.error = null;
@@ -71,7 +73,13 @@ const authSlice = createSlice({
         state.error = "No account found with this email.";
         return;
       }
-      if (userToLogin.password !== password) {
+
+      const isPasswordCorrect = bcrypt.compareSync(
+        password,
+        userToLogin.password
+      );
+
+      if (!isPasswordCorrect) {
         state.error = "Incorrect password.";
         return;
       }
