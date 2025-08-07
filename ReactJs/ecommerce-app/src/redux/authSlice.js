@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// --- Helper functions to interact with localStorage ---
 const getLoggedInUser = () => {
   try {
     const user = localStorage.getItem("loggedInUser");
@@ -16,6 +17,13 @@ const getAllUsers = () => {
   } catch (error) {
     return [];
   }
+};
+
+const isStrongPassword = (password) => {
+  const strongPasswordRegex = new RegExp(
+    "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"
+  );
+  return strongPasswordRegex.test(password);
 };
 
 const initialState = {
@@ -36,8 +44,9 @@ const authSlice = createSlice({
         state.error = "An account with this email already exists.";
         return;
       }
-      if (password.length <= 6) {
-        state.error = "Password must be more than 6 characters long.";
+      if (!isStrongPassword(password)) {
+        state.error =
+          "Password must be at least 8 characters long and include uppercase, lowercase, a number, and a special character.";
         return;
       }
       if (password !== confirmPassword) {
@@ -45,6 +54,7 @@ const authSlice = createSlice({
         return;
       }
 
+      // If validation passes, create the new user
       const newUser = { name, email, password };
       state.allUsers.push(newUser);
       state.user = { name, email };
