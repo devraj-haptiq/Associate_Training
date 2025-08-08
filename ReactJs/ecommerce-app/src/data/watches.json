@@ -1,0 +1,354 @@
+{
+  "watches": [
+    {
+      "id": 1,
+      "name": "Octane Chronograph",
+      "brand": "Titan",
+      "price": 8995,
+      "description": "A sporty and stylish chronograph watch with a tachymeter. Perfect for the modern man who values precision and style. Features a stainless steel case and a durable leather strap.",
+      "image_url": "/assets/1.webp",
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "G-Shock DW-5600E",
+      "brand": "Casio",
+      "price": 5995,
+      "description": "The quintessential tough watch. The G-Shock is known for its extreme durability, shock resistance, and 200m water resistance. A classic digital watch for any adventure.",
+      "image_url": "/assets/2.webp",
+      "in_stock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Grant Chronograph Brown Leather",
+      "brand": "Fossil",
+      "price": 11995,
+      "description": "Inspired by vintage timepieces, the Grant watch has a classic appeal. Roman numerals and a timeless chronograph eyelet make it a sophisticated choice for any occasion.",
+      "image_url": "/assets/3.webp",
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Seiko 5 Automatic",
+      "brand": "Seiko",
+      "price": 15500,
+      "description": "A legendary automatic watch known for its reliability and value. Features a transparent case back to view the intricate automatic movement. A perfect first mechanical watch.",
+      "image_url": "/assets/4.webp",
+      "in_stock": false,
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "name": "ColorFit Pro 4",
+      "brand": "Noise",
+      "price": 3499,
+      "description": "India's leading smartwatch. Features a large, bright display, Bluetooth calling, and a comprehensive suite of health tracking features including heart rate, SpO2, and sleep monitoring.",
+      "image_url": "/assets/5.webp",
+      "in_stock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 6,
+      "name": "Weekender Analog",
+      "brand": "Timex",
+      "price": 2499,
+      "description": "A simple, versatile, and classic field watch. Known for its clean dial and Indiglo backlight, making it easy to read in any light. The interchangeable strap lets you customize your look.",
+      "image_url": "/assets/6.webp",
+      "in_stock": true,
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "Trendies Analog Watch",
+      "brand": "Fastrack",
+      "price": 1999,
+      "description": "A fun and vibrant watch for the youth. Features a quirky dial design and a comfortable silicone strap, perfect for daily casual wear.",
+      "image_url": "/assets/7.webp",
+      "in_stock": true,
+      "rating": 4.2
+    },
+    {
+      "id": 8,
+      "name": "Eco-Drive Promaster",
+      "brand": "Citizen",
+      "price": 22500,
+      "description": "The professional's choice. Powered by any light with Eco-Drive technology, this diver's watch never needs a battery. Built for adventure with 200m water resistance.",
+      "image_url": "/assets/8.webp",
+      "in_stock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "Apple Watch SE",
+      "brand": "Apple",
+      "price": 29900,
+      "description": "All the essentials to help you be motivated and active, stay connected, track your health, and stay safe. A great-value entry into the Apple Watch ecosystem.",
+      "image_url": "/assets/9.webp",
+      "in_stock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "name": "Galaxy Watch 6 Classic",
+      "brand": "Samsung",
+      "price": 36999,
+      "description": "A timeless design with a rotating bezel for easy app navigation. Advanced health monitoring with a BioActive Sensor to track ECG and blood pressure.",
+      "image_url": "/assets/10.webp",
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 11,
+      "name": "Forerunner 255",
+      "brand": "Garmin",
+      "price": 37490,
+      "description": "The ultimate GPS running smartwatch. Get training reports, track your recovery, and get a complete picture of your health, from sleep to training.",
+      "image_url": "/assets/11.webp",
+      "in_stock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 12,
+      "name": "PRX Powermatic 80",
+      "brand": "Tissot",
+      "price": 62500,
+      "description": "A modern re-issue of a classic 1970s design. Features an integrated bracelet and a stunning waffle-pattern dial. The Powermatic 80 movement offers an 80-hour power reserve.",
+      "image_url": "/assets/12.webp",
+      "in_stock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 13,
+      "name": "Parker Pavé Gold-Tone Watch",
+      "brand": "Michael Kors",
+      "price": 21995,
+      "description": "A glamorous and sophisticated timepiece. The gold-tone stainless steel is complemented by a sparkling pavé-studded bezel for an elegant, uptown sensibility.",
+      "image_url": "/assets/13.webp",
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "name": "Classic Petite Melrose",
+      "brand": "Daniel Wellington",
+      "price": 13999,
+      "description": "An icon of minimalist design. The Classic Petite features a contemporary mesh strap and a clean, simple dial that is effortlessly elegant.",
+      "image_url": "/assets/14.webp",
+      "in_stock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 15,
+      "name": "Luigi Chronograph",
+      "brand": "Emporio Armani",
+      "price": 24995,
+      "description": "Sleek and refined, this Emporio Armani watch features a bold black dial with silver-tone accents and a comfortable stainless steel mesh bracelet.",
+      "image_url": "/assets/15.webp",
+      "in_stock": false,
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "name": "Bambino Version 4",
+      "brand": "Orient",
+      "price": 18000,
+      "description": "A highly-acclaimed dress watch with a classic domed crystal and a beautiful sunburst dial. Powered by a reliable in-house Japanese automatic movement.",
+      "image_url": "/assets/16.webp",
+      "in_stock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 17,
+      "name": "Captain Cook Automatic",
+      "brand": "Rado",
+      "price": 175000,
+      "description": "A reissue of a 1962 classic, the Captain Cook is a stunning vintage-inspired diver. Features a high-tech ceramic bezel and a powerful automatic movement.",
+      "image_url": "/assets/17.webp",
+      "in_stock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 18,
+      "name": "HydroConquest Automatic",
+      "brand": "Longines",
+      "price": 135000,
+      "description": "A high-performance dive watch combining technical innovation and elegance. The HydroConquest is a benchmark for Swiss-made sports watches.",
+      "image_url": "/assets/18.webp",
+      "in_stock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 19,
+      "name": "Vintage A168WA",
+      "brand": "Casio",
+      "price": 2195,
+      "description": "The iconic retro digital watch. A timeless design that has been popular for decades, featuring a stopwatch, alarm, and an electroluminescent backlight.",
+      "image_url": "/assets/19.webp",
+      "in_stock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 20,
+      "name": "Raga Viva Rose Gold",
+      "brand": "Titan",
+      "price": 5495,
+      "description": "An elegant timepiece for women, inspired by modern femininity. The rose gold bracelet and Swarovski crystal-studded dial make it a beautiful accessory.",
+      "image_url": "/assets/20.webp",
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 21,
+      "name": "Superfibre Digital Watch",
+      "brand": "Sonata",
+      "price": 899,
+      "description": "A highly functional and durable digital watch from Tata. Perfect for sports and outdoor activities with its tough fibre strap and multiple features.",
+      "image_url": "/assets/21.webp",
+      "in_stock": true,
+      "rating": 4.1
+    },
+    {
+      "id": 22,
+      "name": "Bank Blue Dial Watch",
+      "brand": "Tommy Hilfiger",
+      "price": 12500,
+      "description": "A classic, preppy design that reflects the Tommy Hilfiger brand. The blue dial with a day-date function is both stylish and practical.",
+      "image_url": "/assets/22.webp",
+      "in_stock": false,
+      "rating": 4.4
+    },
+    {
+      "id": 23,
+      "name": "Charge 6",
+      "brand": "Fitbit",
+      "price": 14999,
+      "description": "A premium fitness tracker with Google essentials built-in. Track your workouts, heart rate, and sleep, and stay connected with Google Maps, Wallet, and YouTube Music controls.",
+      "image_url": "/assets/23.webp",
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 24,
+      "name": "Seamaster Diver 300M",
+      "brand": "Omega",
+      "price": 495000,
+      "description": "The legendary James Bond watch. A true icon in the watch world, featuring a distinctive wave-pattern dial, a ceramic bezel, and a Master Chronometer movement.",
+      "image_url": "/assets/24.webp",
+      "in_stock": true,
+      "rating": 5.0
+    },
+    {
+      "id": 25,
+      "name": "Submariner Date",
+      "brand": "Rolex",
+      "price": 1250000,
+      "description": "The archetypal divers' watch and a benchmark in its genre. The Rolex Submariner is an icon of watchmaking, instantly recognizable and universally admired.",
+      "image_url": "/assets/25.webp",
+      "in_stock": false,
+      "rating": 5.0
+    },
+    {
+      "id": 26,
+      "name": "Edifice Chronograph",
+      "brand": "Casio",
+      "price": 9995,
+      "description": "Speed and intelligence. A high-performance metal chronograph from Casio with a dynamic design and advanced features, inspired by motorsport.",
+      "image_url": "/assets/26.webp",
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 27,
+      "name": "Presage 'Cocktail Time'",
+      "brand": "Seiko",
+      "price": 35000,
+      "description": "Inspired by the glamour of a cocktail bar, this Seiko Presage features a stunning textured dial that radiates with beauty. A sophisticated automatic dress watch.",
+      "image_url": "/assets/27.webp",
+      "in_stock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 28,
+      "name": "Amazfit GTR 4",
+      "brand": "Amazfit",
+      "price": 16999,
+      "description": "A premium GPS smartwatch with a classic design. Features strong and precise GPS tracking, a large AMOLED display, and an ultra-long battery life.",
+      "image_url": "/assets/28.webp",
+      "in_stock": true,
+      "rating": 4.4
+    },
+    {
+      "id": 29,
+      "name": "Hugo Boss Integrity",
+      "brand": "Hugo Boss",
+      "price": 18500,
+      "description": "A contemporary watch with a minimalist aesthetic. The blue sunray dial is complemented by a stainless steel mesh bracelet for a refined, modern look.",
+      "image_url": "/assets/29.webp",
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 30,
+      "name": "Fossil Gen 6 Smartwatch",
+      "brand": "Fossil",
+      "price": 24995,
+      "description": "The perfect blend of fashion and tech. Powered by Wear OS by Google, this smartwatch offers faster performance, SpO2 tracking, and smart battery modes.",
+      "image_url": "/assets/30.webp",
+      "in_stock": true,
+      "rating": 4.2
+    },
+    {
+      "id": 31,
+      "name": "Skagen Grenen Solar",
+      "brand": "Skagen",
+      "price": 11495,
+      "description": "A testament to Danish minimalist design and sustainability. This watch features a solar-powered movement and a case made from at least 50% recycled stainless steel.",
+      "image_url": "/assets/31.webp",
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 32,
+      "name": "Police To Be The King",
+      "brand": "Police",
+      "price": 14995,
+      "description": "A bold and rebellious timepiece. The black dial features a prominent skull motif, making a strong style statement. For those who dare to be different.",
+      "image_url": "/assets/32.webp",
+      "in_stock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 33,
+      "name": "Titan Edge Ceramic",
+      "brand": "Titan",
+      "price": 24995,
+      "description": "One of the slimmest watches in the world. The Titan Edge is a marvel of engineering, featuring an ultra-thin movement housed in a sleek, high-tech ceramic case.",
+      "image_url": "/assets/33.webp",
+      "in_stock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 34,
+      "name": "Apple Watch Ultra 2",
+      "brand": "Apple",
+      "price": 89900,
+      "description": "The most rugged and capable Apple Watch ever. Designed for endurance athletes and adventurers, with a titanium case, precision dual-frequency GPS, and up to 36 hours of battery life.",
+      "image_url": "/assets/34.webp",
+      "in_stock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 35,
+      "name": "HMT Pilot",
+      "brand": "HMT",
+      "price": 4500,
+      "description": "A piece of Indian watchmaking history. The HMT Pilot is a legendary hand-winding mechanical watch, cherished by collectors for its simplicity, reliability, and vintage charm.",
+      "image_url": "/assets/35.webp",
+      "in_stock": false,
+      "rating": 4.8
+    }
+  ]
+}
