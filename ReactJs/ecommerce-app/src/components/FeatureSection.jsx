@@ -29,7 +29,7 @@ const brands = [
   {
     name: "Tissot",
     logoSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tissot_Logo.svg/1280px-Tissot_Logo.svg.png ",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tissot_Logo.svg/1280px-Tissot_Logo.svg.png",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function FeatureSection() {
               key={brand.name}
               className="flex justify-center items-center p-4 bg-white rounded-lg shadow-sm"
             >
-              <Link className="block">
+              <Link className="block" to={"/"}>
                 <img
                   src={brand.logoSrc}
                   alt={`${brand.name} logo`}

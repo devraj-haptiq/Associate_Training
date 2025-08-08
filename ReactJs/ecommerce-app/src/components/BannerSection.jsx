@@ -16,7 +16,7 @@ export default function BannerSection() {
             backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${mansImage})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition: "centre",
+            backgroundPosition: "center",
           }}
         >
           <div className="banner-content text-center p-6">
@@ -26,11 +26,9 @@ export default function BannerSection() {
             <p className="mt-2 mb-4 text-gray-200">
               Timeless Pieces for the Modern Man
             </p>
-            <Link to={"/products"}>
-              <button className="bg-transparent border-2 border-white text-white font-semibold py-2 px-6 rounded-full">
-                Shop Men's
-              </button>
-            </Link>
+            <button className="bg-transparent border-2 border-white text-white font-semibold py-2 px-6 rounded-full">
+              Shop Men's
+            </button>
           </div>
         </Link>
 
@@ -41,7 +39,7 @@ export default function BannerSection() {
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${womensImage})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition: "centre",
+            backgroundPosition: "center",
           }}
         >
           <div className="banner-content text-center p-6">
@@ -51,11 +49,9 @@ export default function BannerSection() {
             <p className="mt-2 mb-4 text-gray-200">
               Elegance and Style on Your Wrist
             </p>
-            <Link to={"/products"}>
-              <button className="bg-transparent border-2 border-white text-white font-semibold py-2 px-6 rounded-full">
-                Shop Women's
-              </button>
-            </Link>
+            <button className="bg-transparent border-2 border-white text-white font-semibold py-2 px-6 rounded-full">
+              Shop Women's
+            </button>
           </div>
         </Link>
       </div>
